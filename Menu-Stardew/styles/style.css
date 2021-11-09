@@ -53,7 +53,6 @@ body {
     display: flex;
     gap: 50px;
     list-style: none;
-    text-align: center;
     
 }
 
@@ -61,9 +60,10 @@ body {
 
     background-image: url("../images/bgBox.png");
     font-size: 56px;
+    line-height: 174px;
+    text-align: center;
     min-width: 222px;
     height: 174px;
-    padding-top: 60px;
 
 }
 
