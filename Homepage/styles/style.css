@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+
+    font-family: Runecity;
+    src: url("../fonts/Runeicity\ Decorative001.ttf");
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+body {
+
+    background-image: url('../images/mountains.jpg');
+    background-size: cover;
+    
+}
+
+.red-sun {
+
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    box-shadow: 0 0 70px #ff0000;
+    border-radius: 50%;
+    position: absolute;
+    top: 42px;
+    right: 150px;
+    z-index: -1;
+    
+}
+
+.tree {
+
+    height: 800px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    z-index: -1;
+    
+}
+
+.menu {
+
+    background-color: #8c98afda;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 32px;
+    box-shadow: 0 0 20px 3px #1c3352;
+    border-radius: 12px;
+            
+}
+
+.holder {
+
+    display: flex;
+    align-items: center;
+    
+}
+
+@keyframes title-animation {
+
+    0% {
+
+        transform: rotateY(0);
+        
+    }
+    
+    50% {
+
+        transform: rotateY(180deg);
+        
+    }
+
+    100% {
+
+        transform: rotateY(360deg);
+        
+    }
+    
+}
+
+.logo {
+
+    margin-left: 50px;
+    animation: title-animation 8s linear infinite;
+
+}
+
+.title {
+
+    color: #1c3352;
+    margin-left: 30px;
+    font-size: 125px;
+    font-family: 'Runecity';
+    
+}
+
+.options {
+
+    margin-top: 24px;
+    text-align: center;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.options button {
+
+    width: 250px;
+    color: #fff;
+    font-family: 'Runecity';
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border: 0;
+    padding: 32px;
+    background-color: #1c3352;
+    border-radius: 32px;
+    transition: .2s ease-in-out;
+    
+}
+
+.options button:hover {
+
+    transform: scale(1.1);
+
+}
+
+footer {
+
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 64px;
+    
+}
